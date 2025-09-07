@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screenshot-capture"
+version = "0.1.0"
+description = "CLI tool to capture video screenshots at timestamps and intervals using ffmpeg"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Your Name" }
+]
+license = { text = "UNLICENSED" }
+keywords = ["ffmpeg", "video", "screenshots", "thumbnails", "timestamps"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+
+[project.scripts]
+screenshot-capture = "screenshot_capture.cli:main"
+

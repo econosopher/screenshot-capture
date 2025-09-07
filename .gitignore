@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / tooling
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Misc
+frames/
